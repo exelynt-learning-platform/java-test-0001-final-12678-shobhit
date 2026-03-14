@@ -1,8 +1,8 @@
 public class Pattern {
-    private static final int PATTERN_SIZE = 5;
+    private static final int DIAMOND_HEIGHT = 5;
 
     public static void main(String[] args) {
-        int n = PATTERN_SIZE;
+        int n = DIAMOND_HEIGHT;
 
         for (int i = 1; i <= n; i++) {
             for (int j = i; j < n; j++) {
